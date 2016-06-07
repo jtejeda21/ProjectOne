@@ -30,3 +30,9 @@ Image changes for each wrong answer
 Show the attempts by each player at "Winner/Loser" display
 
 Footer 
+
+
+###Bibliography
+
+* "Proxanys" Font - http://www.1001fonts.com/new-and-fresh-fonts.html?page=2&items=10
+* Background Wall Image - https://wallpaperscraft.com/all/downloads/2560x1440

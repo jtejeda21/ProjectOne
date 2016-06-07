@@ -1,0 +1,19 @@
+@font-face {
+    font-family: 'Proxanys'; /* specify how you want the font to be referenced in the font-family property */
+    src: "fonts/Proxanys.tff";
+}
+
+body {
+	background-color: black;
+	background: url('../images/blackwood.jpg');
+	background-position: center;
+}
+
+#toptitle {
+	color: white;
+	font-family: 'Proxanys';
+	font-size: 7em;
+	padding: 1%;
+	margin-left: 30%;
+}
+
