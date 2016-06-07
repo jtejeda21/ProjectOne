@@ -23,7 +23,7 @@ Determine winner
 Display winner or loser 
 
 
-###TRETCH GOALS:
+###STRETCH GOALS:
 
 Image changes for each wrong answer
 
