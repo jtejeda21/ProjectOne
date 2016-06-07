@@ -27,6 +27,6 @@ Display winner or loser
 
 Image changes for each wrong answer
 
-Show the attempts by each player and "Winner/Loser" display
+Show the attempts by each player at "Winner/Loser" display
 
-Footer with link and 
+Footer 
