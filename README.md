@@ -1,6 +1,6 @@
-###Game: Hangman
+##Game: Hangman
 
-##MVP: 
+###MVP: 
 
 Game will load at website start
 
@@ -23,7 +23,7 @@ Determine winner
 Display winner or loser 
 
 
-##STRETCH GOALS:
+###TRETCH GOALS:
 
 Image changes for each wrong answer
 
