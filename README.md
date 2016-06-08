@@ -4,7 +4,7 @@
 
 Game will load at website start
 
-Onload will diplay:
+Onload will display:
 
 -title
 
@@ -36,3 +36,4 @@ Footer
 
 * "Proxanys" Font - http://www.1001fonts.com/new-and-fresh-fonts.html?page=2&items=10
 * Background Wall Image - https://wallpaperscraft.com/all/downloads/2560x1440
+* Executioner image - http://scribblenauts.wikia.com/wiki/Hangman

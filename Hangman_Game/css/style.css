@@ -1,19 +1,54 @@
 @font-face {
-    font-family: 'Proxanys'; /* specify how you want the font to be referenced in the font-family property */
-    src: "fonts/Proxanys.tff";
+    font-family: 'Proxanys'; /* specify how you want the font to be referenced in the font-family property -Matt Hunington */
+    src: "fonts/Proxanys.tff"; /* see README.md for origination */
 }
 
 body {
-	background-color: black;
-	background: url('../images/blackwood.jpg');
+	/*background-color: black;*/
+	background: url('../images/blackwood.jpg'); /* see README.md for origination */
 	background-position: center;
+}
+
+#excecutioner {
+	float: right;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    padding: 5px;
+    height: 330px;
+    width: 210px;
+    margin-top: 186px;
+    margin-right: 20px;
 }
 
 #toptitle {
 	color: white;
 	font-family: 'Proxanys';
-	font-size: 7em;
-	padding: 1%;
-	margin-left: 30%;
+	font-size: 6.5em;
+	position: absolute;
+	padding: 2px;
+  	left: 50%;
+    top: -7%;
+    transform: translate(-50%); /*transform found on CSS tricks to make page resizing responsive. */
+}
+
+#guess-box {
+	position: absolute;
+	resize: horizontal;
+	height: 60px;
+    width: 100px;
+  	left: 50%;
+    top: 80%;
+    text-align: center;
+    text-decoration: bold;
+    font-size: 3em;
+    transform: translate(-50%);
+
+}
+
+ul li {
+	color: white;
+	list-style-type: none;
+	font-size: 1.6em;
+	transform: translate(-1%)
 }
 
