@@ -37,3 +37,5 @@ Footer
 * "Proxanys" Font - http://www.1001fonts.com/new-and-fresh-fonts.html?page=2&items=10
 * Background Wall Image - https://wallpaperscraft.com/all/downloads/2560x1440
 * Executioner image - http://scribblenauts.wikia.com/wiki/Hangman
+* Hangman images (2) - http://andyroid.vonetize.com.edgesuite.net/website10/wp-content/uploads/2015/05/Hangman-icon.png
+* Favicon - http://www.favicon.cc/?action=icon&file_id=39774
