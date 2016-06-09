@@ -14,7 +14,14 @@ var wordWin = ['W','A','R','R','I','O','R','S'];
 
 var letterBox = document.getElementById('guess-button');
 	for (var i = 0; i < alphaBet.length; i++) {
+<<<<<<< HEAD
 
+=======
+		if {
+			alphaBet[i] === ['W']
+			
+		}
+>>>>>>> master
 	}
 
 

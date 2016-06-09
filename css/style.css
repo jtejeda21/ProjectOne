@@ -15,9 +15,14 @@ body {
   height: 450px;
   width: 570px;
   padding: 2px;
+<<<<<<< HEAD
   left: 13%;
   top: 22%;
   transform: translate(50%);
+=======
+  left: 31%;
+  top: 22%;
+>>>>>>> master
 }
 
 #toptitle {
@@ -26,6 +31,7 @@ body {
   font-size: 6.5em;
   position: absolute;
   padding: 2px;
+<<<<<<< HEAD
   left: 49%;
   top: -7%;
   transform: translate(-50%); /*transform found on CSS tricks to make page resizing responsive. */
@@ -39,6 +45,19 @@ body {
   width: 300px;
   padding-bottom: 83px;
   transform: translate(-50%, -50%);
+=======
+  left: 36.5%;
+  top: -7%;
+}
+
+#before-face {
+	position: absolute;
+  top: 30%;
+  left: 36.5%;
+  height: 300px;
+  width: 300px;
+  padding-bottom: 83px;
+>>>>>>> master
 }
 
 #excecutioner {
@@ -60,12 +79,19 @@ body {
 	height: 60px;
   width: 100px;
   left: 14.5%;
+<<<<<<< HEAD
   top: 42%;
+=======
+  top: 44%;
+>>>>>>> master
   color: white;  
   text-align: center;
   text-decoration: bold;
   font-size: 3em;
+<<<<<<< HEAD
   /*transform: translate(-50%);*/
+=======
+>>>>>>> master
 }
 
 #guess-button {
@@ -74,15 +100,24 @@ body {
   background-color: black;
   border: 2px solid white;
   height: 30px;
+<<<<<<< HEAD
   width: 55px;
   left: 16%;
   top: 52%;
   color: white;  
   text-align: center;
+=======
+  width: 56px;
+  left: 16%;
+  top: 54%;
+  color: white;  
+  text-align: center;`
+>>>>>>> master
   text-decoration: bold;
   font-size: 1em;
 }
 
+<<<<<<< HEAD
 @import "compass/css3";
 
 #the-word {
@@ -136,4 +171,38 @@ body {
     /* font-weight: bold; */
     font-size: 2em;
     text-align: center;
+=======
+.alpha-row {
+	color: white;
+	list-style-type: none;
+	font-size: 1.6em;
+}
+
+/* I previously tried to inline a div class which worked in the inspector tools but for some reason reverted back when 
+mirroring code to css page.  I could not override "user agent stylesheet". Display flex */
+.the-word {
+  padding: 90px;
+  margin: 89px;
+  list-style: none;
+  display: flex;
+  width: 657px;
+  margin-left: 23%;
+}
+
+.dubs {
+  background: black;
+  border-bottom: 1px solid yellow;
+  border-top: 1px solid yellow;
+  border-right: 1px solid blue;
+  border-left: 1px solid blue;
+  padding: 15px;
+  width: 55px;
+  height: 11px;
+  margin-top: -222px;
+  line-height: 11px;
+  color: white;
+  /* font-weight: bold; */
+  font-size: 2em;
+  text-align: center;
+>>>>>>> master
 }
