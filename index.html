@@ -1,6 +1,7 @@
 <!doctype html>
 <html lang="en">
 	<head>
+		<script   src="https://code.jquery.com/jquery-3.0.0.js"   integrity="sha256-jrPLZ+8vDxt2FnE1zvZXCkCcebI/C8Dt5xyaQBjxQIo="   crossorigin="anonymous"></script>
 		<link rel='shortcut icon' href='images/favicon.ico' type='image/x-icon'/ >
 		<link rel="stylesheet" type="text/css" href="css/style.css"	>
 		<link src="fonts/Proxanys.ttf" rel='stylesheet' type='	text/css'>        
@@ -13,51 +14,51 @@
 	</header>
 	<body>
 		<img id="excecutioner" src="images/executioner.png"/>
-		<img id="before-face" src="images/before.png"/>
+		<img id="before-face" src="images/before2.png"/>
 		<form>
 			<input id="guess-box" type="text"/>
 			<button id="guess-button">Enter</button>
 		</form>
 			<div>
 				<ul class="alpha-row">
-					<li class="letter-strike">A</li>
-					<li class="letter-strike">B</li>
-					<li class="letter-strike">C</li>
-					<li class="letter-strike">D</li>
-					<li class="letter-strike">E</li>
-					<li class="letter-strike">F</li>
-					<li class="letter-strike">G</li>
-					<li class="letter-strike">H</li>
-					<li class="letter-strike">I</li>
-					<li class="letter-strike">J</li>
-					<li class="letter-strike">K</li>
-					<li class="letter-strike">L</li>
-					<li class="letter-strike">M</li>
-					<li class="letter-strike">N</li>
-					<li class="letter-strike">O</li>
-					<li class="letter-strike">P</li>
-					<li class="letter-strike">Q</li>
-					<li class="letter-strike">R</li>
-					<li class="letter-strike">S</li>
-					<li class="letter-strike">T</li>
-					<li class="letter-strike">U</li>
-					<li class="letter-strike">V</li>
-					<li class="letter-strike">W</li>
-					<li class="letter-strike">X</li>
-					<li class="letter-strike">Y</li>
-					<li class="letter-strike">Z</li>
+					<li class="letter-strike" id="A">A</li>
+					<li class="letter-strike" id="B">B</li>
+					<li class="letter-strike" id="C">C</li>
+					<li class="letter-strike" id="D">D</li>
+					<li class="letter-strike" id="E">E</li>
+					<li class="letter-strike" id="F">F</li>
+					<li class="letter-strike" id="G">G</li>
+					<li class="letter-strike" id="H">H</li>
+					<li class="letter-strike" id="I">I</li>
+					<li class="letter-strike" id="J">J</li>
+					<li class="letter-strike" id="K">K</li>
+					<li class="letter-strike" id="L">L</li>
+					<li class="letter-strike" id="M">M</li>
+					<li class="letter-strike" id="N">N</li>
+					<li class="letter-strike" id="O">O</li>
+					<li class="letter-strike" id="P">P</li>
+					<li class="letter-strike" id="Q">Q</li>
+					<li class="letter-strike" id="R">R</li>
+					<li class="letter-strike" id="S">S</li>
+					<li class="letter-strike" id="T">T</li>
+					<li class="letter-strike" id="U">U</li>
+					<li class="letter-strike" id="V">V</li>
+					<li class="letter-strike" id="W">W</li>
+					<li class="letter-strike" id="X">X</li>
+					<li class="letter-strike" id="Y">Y</li>
+					<li class="letter-strike" id="Z">Z</li>
 				</ul>
 			</div>
 			<div>		
  				<ul class="the-word">
-  					<li class="dubs">?</li>			<!-- W -->
-  					<li class="dubs">?</li>			<!-- A -->
-  					<li class="dubs">?</li>			<!-- R -->
-  					<li class="dubs">?</li>			<!-- R -->
-  					<li class="dubs">?</li>			<!-- I -->
-  					<li class="dubs">?</li>			<!-- O -->
-  					<li class="dubs">?</li>			<!-- R -->
-  					<li class="dubs">?</li>			<!-- S -->
+  					<li class="dubs" id='WW'>?</li>			<!-- W -->
+  					<li class="dubs" id='A'>?</li>			<!-- A -->
+  					<li class="dubs" id='R'>?</li>			<!-- R -->
+  					<li class="dubs" id='R'>?</li>			<!-- R -->
+  					<li class="dubs" id='I'>?</li>			<!-- I -->
+  					<li class="dubs" id='O'>?</li>			<!-- O -->
+  					<li class="dubs" id='R'>?</li>			<!-- R -->
+  					<li class="dubs" id='S'>?</li>			<!-- S -->
 				</ul>
 			</div>
 	</body>

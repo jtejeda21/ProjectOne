@@ -93,7 +93,7 @@ mirroring code to css page.  I could not override "user agent stylesheet". Displ
 .the-word {
   list-style: none;
   display: flex;
-  margin-left: 28.5%;
+  margin-left: 27.5%;
 }
 
 .dubs {
@@ -102,7 +102,7 @@ mirroring code to css page.  I could not override "user agent stylesheet". Displ
   border-bottom: 1px solid yellow;
   border-top: 1px solid blue;
   padding: 15px;
-  width: 41.5px;
+  width: 53px;
   height: 16px;
   margin-top: -71px;
   line-height: 11px;
