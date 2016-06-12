@@ -41,6 +41,7 @@ function checkIfCorrect(user_letter){
 //If letter matches, need to append to board
 function appendToBoard(user_letter){
 	alert('made it inside appendTestFunction');
+	append
 }};
 /// To do:
 //append correct letter to the board
