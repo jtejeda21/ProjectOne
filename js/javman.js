@@ -36,6 +36,7 @@ function checkIfCorrect(user_letter){
 				// console.log("this is the user's letter and it's right! " + user_letter);
 				appendToBoard(user_letter,i);
 				dupword = true;
+
 				// return true;
 	  } else{
 				// console.log("this is the user's letter and it's wrong!" + user_letter);
@@ -65,8 +66,10 @@ function appendToBoard(user_letter,index){
 };
 
 /// To do:
-//figure out how to swap players
-//var max = 3x check 38, if counter is = max
+//1. Make the letter disappear once it has been chosen
+//2. Swap player function
+//Notes:
+//var max = 3x check , if counter is = max
 //right subtract 1, wrong add 1
 
 
