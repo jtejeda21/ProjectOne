@@ -1,6 +1,6 @@
 ##Game: Hangman
 
-Link to game: https://github.com/jtejeda21/ProjectOne_GA
+Link to game: http://jtejeda21.github.io/ProjectOne_GA/
 
 ###MVP: 
 
@@ -25,7 +25,7 @@ Determine winner
 Display winner or loser 
 
 
-###STRETCH GOALS:
+###Stretch Goals:
 
 Image changes for each wrong answer
 
