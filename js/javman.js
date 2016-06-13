@@ -42,7 +42,7 @@ function checkIfCorrect(user_letter){
 				// console.log("this is the user's letter and it's wrong!" + user_letter);
 				// dupword = false;
 			}
-				alert("Next Player's Turn");
+				// alert("Next Player's Turn");
 				//function for next player
 				// return false;		
 	};
