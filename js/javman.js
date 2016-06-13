@@ -37,7 +37,7 @@ function checkIfCorrect(user_letter){
 				appendToBoard(user_letter,i);
 				dupword = true;
 				// return true;
-		} else{
+	  } else{
 				// console.log("this is the user's letter and it's wrong!" + user_letter);
 				// dupword = false;
 			}
@@ -45,11 +45,11 @@ function checkIfCorrect(user_letter){
 				//function for next player
 				// return false;		
 	};
-			if	(dupword === false) {
+		if	(dupword === false) {
 				youlose.push("false");
 			}
 				dupword = false;
-			if (youlose.length === 3) {
+		if (youlose.length === 3) {
 				// console.log(youlose);
 				document.getElementById("before-face").src = "images/after.png";
 			}
