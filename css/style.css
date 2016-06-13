@@ -16,19 +16,8 @@ body {
   height: 500px;
   width: 650px;
   padding: 2px;
-<<<<<<< HEAD
-<<<<<<< HEAD
-  left: 13%;
-  top: 22%;
-  transform: translate(50%);
-=======
-  left: 31%;
-  top: 22%;
->>>>>>> master
-=======
   left: 28%;
   top: 21%;
->>>>>>> master
 }
 
 #toptitle {
@@ -37,26 +26,7 @@ body {
   font-size: 6.5em;
   position: absolute;
   padding: 2px;
-<<<<<<< HEAD
-<<<<<<< HEAD
-  left: 49%;
-  top: -7%;
-  transform: translate(-50%); /*transform found on CSS tricks to make page resizing responsive. */
-}
-
-#before-face {
-	position: fixed;
-  top: 52%;
-  left: 46.5%;
-  height: 300px;
-  width: 300px;
-  padding-bottom: 83px;
-  transform: translate(-50%, -50%);
-=======
-  left: 36.5%;
-=======
   left: 36%;
->>>>>>> master
   top: -7%;
 }
 
@@ -67,7 +37,6 @@ body {
   height: 300px;
   width: 300px;
   padding-bottom: 83px;
->>>>>>> master
 }
 
 #excecutioner {
@@ -123,19 +92,11 @@ mirroring code to css page.  I could not override "user agent stylesheet". Displ
 	height: 60px;
   width: 100px;
   left: 14.5%;
-<<<<<<< HEAD
-  top: 42%;
-=======
   top: 44%;
->>>>>>> master
   color: white;  
   text-align: center;
   text-decoration: bold;
   font-size: 3em;
-<<<<<<< HEAD
-  /*transform: translate(-50%);*/
-=======
->>>>>>> master
 }
 
 #guess-button {
@@ -145,114 +106,13 @@ mirroring code to css page.  I could not override "user agent stylesheet". Displ
   opacity: 0.7;
   border: 2px solid white;
   height: 30px;
-<<<<<<< HEAD
-  width: 55px;
-  left: 16%;
-  top: 52%;
-  color: white;  
-  text-align: center;
-=======
   width: 56px;
   left: 16%;
   top: 54%;
   color: white;  
-<<<<<<< HEAD
-  text-align: center;`
->>>>>>> master
-=======
   text-align: center;
->>>>>>> master
   text-decoration: bold;
   font-size: 1em;
-<<<<<<< HEAD
-}
-
-<<<<<<< HEAD
-@import "compass/css3";
-
-#the-word {
-  display: -webkit-box;
-  width: 100px;
-}
-
-.dubs {
-  display: -webkit-box;
-  border-bottom: 1px solid white;
-  margin: 1px;
-  padding: 1px;
-  width: 10px;
-}
-
-#alpha-row {
-	color: white;
-	list-style-type: none;
-	font-size: 1.6em;
-	/*transform: translate(-1%)*/
-}
-
-@import "compass/css3";
-
-.flex-container {
- padding: 90px;
-    margin: 89px;
-    list-style: none;
-    display: -webkit-box;
-    display: -moz-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-    justify-content: space-around;
-    width: 657px;
-    margin-left: 23%;
-}
-
-.flex-item {
-    background: black;
-    border-bottom: 1px solid yellow;
-    border-top: 1px solid yellow;
-    border-right: 1px solid blue;
-    border-left: 1px solid blue;
-    padding: 15px;
-    width: 55px;
-    height: 11px;
-    margin-top: -222px;
-    line-height: 11px;
-    color: white;
-    /* font-weight: bold; */
-    font-size: 2em;
-    text-align: center;
-=======
-.alpha-row {
-	color: white;
-	list-style-type: none;
-	font-size: 1.6em;
-}
-
-/* I previously tried to inline a div class which worked in the inspector tools but for some reason reverted back when 
-mirroring code to css page.  I could not override "user agent stylesheet". Display flex */
-.the-word {
-  list-style: none;
-  display: flex;
-  margin-left: 27.5%;
-}
-
-.dubs {
-  background: black;
-  opacity: 0.7;
-  border-bottom: 1px solid yellow;
-  border-top: 1px solid blue;
-  padding: 15px;
-  width: 53px;
-  height: 16px;
-  margin-top: -71px;
-  line-height: 11px;
-  color: white;
-  font-size: 1.5em;
-  text-align: center;
->>>>>>> master
-}
-=======
 }*/
 
 /*////////////////////////*/
->>>>>>> master

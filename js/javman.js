@@ -96,37 +96,11 @@ function appendToBoard(user_letter,index){
  //        letterStrike.push($idVal)
  //        // console.log($idVal)
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-    })
-	
-
-var letterBox = document.getElementById('guess-button');
-	for (var i = 0; i < alphaBet.length; i++) {
-		
-
-
-		if {
-			alphaBet[i] === ['W']
-			
-		}
-		
-
-	      addingOnclick(letterStrike);
-		 
-	}
-=======
- //        //  $(this).on("click", function(e) {
- //        //      $(this).addClass('clicked')
- //        // });
-=======
  //         $(this).on("click", function(e) {
  //             $(this).addClass('clicked')
  //        });
->>>>>>> master
 
  //    })
->>>>>>> master
 
 	//       addingOnclick(letterStrike);
 	// }
