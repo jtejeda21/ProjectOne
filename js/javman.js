@@ -2,14 +2,20 @@
 window.onload = function() {
 
 //Strech goal is to load multiple words
+var boardword = document.getElementsByClassName("dubs");
+	for (var a = 0; a < boardword.length; a++){
+		// console.log(boardword[a].class);
+	}
+var dupword = false;
 var wordWin = ['W','A','R','R','I','O','R','S'];
-var players = [1]
+var players = [1];
+var youlose = [];
 
 
 //Grabbed all available letter and added click event
 var alphabet = document.getElementsByClassName("letter-strike");
-	console.log(alphabet);
-	console.log(alphabet[0]);
+	// console.log(alphabet);
+	// console.log(alphabet[0]);
 	for (var i = 0; i < alphabet.length; i++) {
     	alphabet[i].addEventListener('click', getUsersLetter);
 	};
@@ -17,35 +23,55 @@ var alphabet = document.getElementsByClassName("letter-strike");
 //Grabbing user's letter
 function getUsersLetter(){
 	var user_letter = this.innerHTML;
-	console.log(user_letter);
+	// console.log(user_letter);
 	checkIfCorrect(user_letter);
 };
 
 //Checking user letter to winning word.
 function checkIfCorrect(user_letter){
 	for (var i = 0; i < wordWin.length; i++) {
-				console.log(wordWin[i]);
+				// console.log(wordWin[i]);
+				console.log(dupword);
 		if (wordWin[i] === user_letter){
-				console.log("this is the user's letter and it's right! " + user_letter);
-				appendToBoard(user_letter);
-				return true;
-		} else{
-				console.log("this is the user's letter and it's wrong!" + user_letter);
-		}		
-	};
+				// console.log("this is the user's letter and it's right! " + user_letter);
+				appendToBoard(user_letter,i);
+				dupword = true;
+
+				// return true;
+	  } else{
+				// console.log("this is the user's letter and it's wrong!" + user_letter);
+				// dupword = false;
+			}
 				alert("Next Player's Turn");
 				//function for next player
-				return false;
+				// return false;		
+	};
+		if	(dupword === false) {
+				youlose.push("false");
+			}
+				dupword = false;
+		if (youlose.length === 3) {
+				// console.log(youlose);
+				document.getElementById("before-face").src = "images/after.png";
+			}
 };
 
 //If letter matches, need to append to board
-function appendToBoard(user_letter){
-	alert('made it inside appendTestFunction');
-}};
+function appendToBoard(user_letter,index){
+	// alert('made it inside appendTestFunction');
+		// var letters = boardword[index].id;
+
+       	document.getElementById("A" + index).innerHTML = user_letter;	
+      }
+};
+
 /// To do:
-//append correct letter to the board
-//figure out how to swap players
-//
+//1. Make the letter disappear once it has been chosen
+//2. Swap player function
+//Notes:
+//var max = 3x check , if counter is = max
+//right subtract 1, wrong add 1
+
 
 ////////////////////////////////////////////////////////////////////////////////
 // BELOW IS TEST CODE NOT IN USE:
@@ -71,6 +97,7 @@ function appendToBoard(user_letter){
  //        // console.log($idVal)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     })
 	
 
@@ -92,11 +119,16 @@ var letterBox = document.getElementById('guess-button');
  //        //  $(this).on("click", function(e) {
  //        //      $(this).addClass('clicked')
  //        // });
+=======
+ //         $(this).on("click", function(e) {
+ //             $(this).addClass('clicked')
+ //        });
+>>>>>>> master
 
  //    })
 >>>>>>> master
 
-	//       // addingOnclick(letterStrike);
+	//       addingOnclick(letterStrike);
 	// }
 
 //UN-COMMENT WHEN DONE TESTING!!!!!!!!!!!!!!!!!
